@@ -1,5 +1,9 @@
 {
 	"author": "https://github.com/morizkay",
+	"background.service_worker": {
+		"persistent": true,
+		"scripts": ["./scripts/index.js"]
+	},
 	"content_scripts": [
 		{
 			"all_frames": false,
