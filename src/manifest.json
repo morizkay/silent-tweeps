@@ -1,0 +1,15 @@
+{
+	"author": "https://github.com/morizkay",
+	"content_scripts": [
+		{
+			"all_frames": false,
+			"js": ["./scripts/index.js"],
+			"matches": ["https://twitter.com/*"],
+			"run_at": "document_end"
+		}
+	],
+	"description": "Read Silently",
+	"manifest_version": 3,
+	"name": "Silent Reader",
+	"version": "1.0"
+}
