@@ -1,7 +1,7 @@
 # Silent Tweeps
 
-Browser extension to hide some Twitter's features, currently supports:
+Browser extension to disable some Twitter's features, currently makes you:
 
-- Hide compose tweet field
-- Hide retweet button
-- Hide like button
+- Can't tweet
+- Can't retweet
+- Can't like
