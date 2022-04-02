@@ -1,19 +1,13 @@
 {
-	"author": "https://github.com/morizkay",
-	"background.service_worker": {
-		"persistent": true,
-		"scripts": ["./scripts/index.js"]
-	},
 	"content_scripts": [
 		{
-			"all_frames": false,
-			"js": ["./scripts/index.js"],
+			"css": ["silent-tweeps.css"],
 			"matches": ["https://twitter.com/*"],
-			"run_at": "document_end"
+			"run_at": "document_start"
 		}
 	],
-	"description": "Read Silently",
+	"description": "Silent Tweeps is an chromium's browser based extension to make you can't retweet or like tweets from other users. (More features will be added soon)",
 	"manifest_version": 3,
-	"name": "Silent Reader",
+	"name": "Silent Tweeps",
 	"version": "1.0"
 }
