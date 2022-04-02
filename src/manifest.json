@@ -2,11 +2,11 @@
 	"content_scripts": [
 		{
 			"css": ["silent-tweeps.css"],
-			"matches": ["https://twitter.com/*"],
+			"matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
 			"run_at": "document_start"
 		}
 	],
-	"description": "Silent Tweeps is an chromium's browser based extension to make you can't retweet or like tweets from other users. (More features will be added soon)",
+	"description": "Browser extension to disable some Twitter's features, currently makes you: \n- Can't tweet \n- Can't retweet \n- Can't like",
 	"manifest_version": 3,
 	"name": "Silent Tweeps",
 	"version": "1.0"
